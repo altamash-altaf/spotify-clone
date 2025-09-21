@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favorite music app is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Gaming Music</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="s1">
+                    <span class="songName">Die For you - VCT × GRABBITZ</span>
+                    <span class="songlistplay"><span class="timestamp">03:38 <i id="0"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="s2">
+                    <span class="songName">Run It - DJ SNAKE</span>
+                    <span class="songlistplay"><span class="timestamp">02:42 <i id="1"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="s3">
+                    <span class="songName">Last One Standing -SKYLAR GREY, EMINEM</span>
+                    <span class="songlistplay"><span class="timestamp">04:17 <i id="2"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="s4">
+                    <span class="songName">Heat Waves - GLASS ANIMAL</span>
+                    <span class="songlistplay"><span class="timestamp">03:55 <i id="3"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="s5">
+                    <span class="songName">Fire Again - VCT × ASHNIKKO</span>
+                    <span class="songlistplay"><span class="timestamp">03:28 <i id="4"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="s6">
+                    <span class="songName">Keep You - THE TECH THIEVES & ONE TRUE GOD</span>
+                    <span class="songlistplay"><span class="timestamp">02:34 <i id="5"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="s7">
+                    <span class="songName">Legends Never Die - (LOL ft. AGAINST THE CURRENT)</span>
+                    <span class="songlistplay"><span class="timestamp">02:59 <i id="6"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="s8">
+                    <span class="songName">Raja - ARB4 Ft. TIENAS & MANGAL SUVARNAN</span>
+                    <span class="songlistplay"><span class="timestamp">03:52 <i id="7"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="s9">
+                    <span class="songName">Trigger - CARRYMINATI X VIBGYOR</span>
+                    <span class="songlistplay"><span class="timestamp">03:03 <i id="8"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="s10">
+                    <span class="songName">Warrior - CARRYMINATI X WILY FRENZY</span>
+                    <span class="songlistplay"><span class="timestamp">03:29 <i id="9"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Die For You - VCT ×
+                GRABBITZ</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
